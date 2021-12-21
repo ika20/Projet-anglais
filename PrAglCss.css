@@ -1,0 +1,13 @@
+body {background-color: #181818;}
+body {margin:0;}
+#ImageBarre{
+    align-items:left;
+    width:99.35%
+}
+#video{
+    width:60.5%;
+    margin-left: 6%;
+    margin-right: auto;
+    margin-top: 1.27%;
+    }
+#ImageLecteur{width:100%;}
