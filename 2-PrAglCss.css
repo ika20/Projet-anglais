@@ -37,7 +37,7 @@ body {
 
 #commentaires{
     color:aliceblue;
-    margin-top: 2.5%;
+    padding-top: 2.5%;
     border-color: aliceblue;
     width: 100%;}
 
@@ -71,6 +71,7 @@ body {
 
 #likesCom{
     width: 64%;
+    padding-bottom: 0%;
 }
 
 
@@ -78,11 +79,19 @@ body {
 #afficherRep{
     color:#3ea6ff;
     font-family: 'Roboto', sans-serif;
-    line-height: 100%;
+
     font-weight: 500;
     font-size: 0.9vw;
     letter-spacing: 0.04vw;
-    padding-top: -1%;
+    padding-bottom: 1.2%;
+
     
 }
 
+#pdpSousCom{
+    width: 5%;
+    padding-right: 0.6%;}
+
+#repCom{
+    padding-bottom: 0.4%;
+    width: 107%;}
