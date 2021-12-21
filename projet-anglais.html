@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head> 
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
         <meta charset="utf-8">
         <title> Projet anglais </title>
-        <link rel="stylesheet" type="text/css" href="PrAglCss.css"
+        <link rel="stylesheet" type="text/css" href="PrAglCss.css">
     </head>
+
     <body>
         <img id="ImageBarre" src="Projet anglais/screen1.png" alt='BarreRecherche' />
         <div id='video'>
-            <img id="ImageLecteur" src="Projet anglais/screenLecteurAChanger.png" alt='Ceci est un lecteur' />
+            <img id="ImageLecteur" src="Projet anglais/screenLecteurAChanger.png" alt="c'est la video" />
+            <img id="infos" src="Projet anglais/infosVideo.png" />
+            <p id="description">
+                Switzerland is one of the most scenic countries in the world. Enjoy this 4K relaxation film across the Switzerland's most beautiful regions. From the majestic Swiss Alps to the enchanting village of Grindelwald, Switzerland's landscapes have so many places waiting to be explored.
+            </p>
+            <img id="hautCommentaires" src="Projet anglais/commentaires.png" />
+        
+
+
+        <table id="commentaires">
+            <tr>
+                <td rowspan="2" id="pdp">
+                    <img id="photo" src="Projet anglais/pdp1.png" />
+                </td>
+                <td id="pseudo" style="float:left;"> pseudo </td>
+                <td id="date" style="float: left;"> il y a 6 mois </td>
+            </tr>
+            <tr>
+                <td id="contenuCom"> le commentaire </td>
+            </tr>
+            <tr>
+                <td rowspan='3'>  </td>
+            </tr>
+            <tr> 
+                <td id="likes"> 
+                    <img id='likesCom' src='Projet anglais/likesCom1.png'>
+                </td>
+            </tr>
+            <tr> 
+                <td id="reponse"> 
+                    <p id='afficherRep'>  ▴&ensp;Masquer 3 réponses  </p>
+                    <div> 
+                        commentaire1
+                    </div>
+                    <div> 
+                        commentaire 2
+                    </div>
+                </td>
+            </tr>
+
+            
+
+        </table>
     </body>
 
 </html>
+
