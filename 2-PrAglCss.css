@@ -1,21 +1,20 @@
 body {
     background-color: #181818;
-    margin:0;
-    }
+    margin:0;}
+
+
 
 #ImageBarre{
     align-items:left;
-    width: 100%;
-    }
+    width: 100%;}
 
 #video{
-    width:60.5%;
+    width:61%;
     margin-left: 6.2%;
     margin-right: auto;
-    margin-top: 1.27%;
-    }
+    padding-top: 1.2%;}
 
-#ImageLecteur{width:100%;}
+
 
 #infos{
     margin-top: 1.8%;
@@ -33,7 +32,7 @@ body {
 
 #hautCommentaires{
     width: 100%;
-    margin-top: 2%;}
+    margin-top: 0%;}
 
 #commentaires{
     color:aliceblue;
@@ -50,15 +49,13 @@ body {
 #pseudo{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size:0.85vw
-}
+    font-size:0.85vw}
 
 #date{
     margin-left: 0.5%;
     color: #8b8b8b;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.80vw;
-}
+    font-size: 0.80vw;}
 
 #contenuCom{
     font-family: 'Roboto',sans-serif;
@@ -66,15 +63,11 @@ body {
     font-weight: 400;
     padding-top:0.7%;
     padding-bottom: 0.8%;
-    font-size: 0.9vw;
-}
+    font-size: 0.9vw;}
 
 #likesCom{
     width: 64%;
-    padding-bottom: 0%;
-}
-
-
+    padding-bottom: 0%;}
 
 #afficherRep{
     color:#3ea6ff;
@@ -83,15 +76,20 @@ body {
     font-weight: 500;
     font-size: 0.9vw;
     letter-spacing: 0.04vw;
-    padding-bottom: 1.2%;
-
-    
-}
+    padding-bottom: 1.2%;}
 
 #pdpSousCom{
-    width: 5%;
+    width: 4.5%;
     padding-right: 0.6%;}
 
 #repCom{
     padding-bottom: 0.4%;
     width: 107%;}
+
+#recommendations{
+    width: 25%;
+    padding-left: 68.5%;
+    padding-top: 1.2%;
+}
+
+#imageSim{width: 100%;}
